@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 def load_data():
-    return pd.read_csv("C:/Users/Asus/Desktop/test_data.csv")
+    return pd.read_csv("test_data.csv")
 df = load_data()
 @st.cache_data
 def preprocess_data(df):
